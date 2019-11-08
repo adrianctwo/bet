@@ -26,7 +26,7 @@ passport.use
     (new GoogleStrategy({
         clientID: keys.googleClientID,
         clientSecret: keys.googleClientSecret,
-        callbackURL: '/auth/google/callback', //route user is sent to after permision granted
+        callbackURL: 'http://ancient-savannah-44654.herokuapp.com/auth/google/callback', //route user is sent to after permision granted
         proxy: true
     }, 
 
