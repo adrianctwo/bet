@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Tournaments from '../../components/Tournaments';
-import Image from "../../assets/darkbackground.jpg";
+import Image from "../../assets/matches.png";
 import logo from "../../assets/ebetz-matches.png"
 import "./style.css"
 
