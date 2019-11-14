@@ -4,7 +4,7 @@ const apiKey = keys.pandaKey;
 
 export default {
   getCurrentLeagueTournament: function () {
-    return axios.get("https://cors-anywhere.herokuapp.com/https://api.pandascore.co/lol/tournaments/running?token="+apiKey);
+    return axios.get("https://cors-anywhere.herokuapp.com/https://api.pandascore.co/lol/tournaments/past?token="+apiKey);
   },
   
   getCurrentMatches: function(tournament) {
