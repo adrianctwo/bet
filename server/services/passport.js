@@ -27,6 +27,7 @@ passport.use
         clientID: keys.googleClientID,
         clientSecret: keys.googleClientSecret,
         callbackURL: 'http://ancient-savannah-44654.herokuapp.com/auth/google/callback', //route user is sent to after permision granted
+        proxy: true
     }, 
 
     //Store access token in DB
