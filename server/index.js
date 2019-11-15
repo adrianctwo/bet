@@ -34,7 +34,9 @@ app.use(
 		//maxAge: how long cookie can last in browser before expiring (below saying 30days)
 		//keys: to encrypt id
 		maxAge: 30 * 24 * 60 * 60 * 1000,
-		keys: [ keys.cookieKey ]
+		keys: [ keys.cookieKey ],
+		sameSite: 'lax',
+		secure: true
 	})
 );
 
