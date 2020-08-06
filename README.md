@@ -1,4 +1,5 @@
 # E-Betz
+https://ebetz.herokuapp.com/home
 E-Betz is a application which is used to bet on live matches for video game tournaments.
 A user is able to sign up with an account and will start with 10,000 credits.
 Once signed in a user can find live matches and bet on teams that are going to play.
