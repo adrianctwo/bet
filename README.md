@@ -16,7 +16,6 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Contributers](#contributers)
-* [Contact](#contact)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
